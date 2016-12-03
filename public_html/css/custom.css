@@ -1,0 +1,27 @@
+.my-jumbo {
+  background: url(/images/homes-for-sale.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 500px;
+padding-top: 200px;
+}
+.jumbotron {
+	height: 500px;
+padding-top: 200px;
+}
+.mls-search {
+    position: relative;
+    width: 100%;
+    margin-right: auto;
+  margin-left: auto;
+padding-top: 0px;
+background: rgba(24, 188, 156, 0.9);
+}
+
+/*@media screen and (min-width: 768px){
+.jumbotron {
+    padding-top: 200px;
+}
+}*/

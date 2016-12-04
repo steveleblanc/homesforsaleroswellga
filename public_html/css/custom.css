@@ -4,20 +4,28 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 500px;
+    height: 600px;
 padding-top: 200px;
 }
 .jumbotron {
 	height: 500px;
 padding-top: 200px;
 }
+.container {
+	position: relative;
+}
 .mls-search {
-    position: relative;
+    /*position: absolute;*/
     width: 100%;
+    border-radius: 5px;
     margin-right: auto;
   margin-left: auto;
-padding-top: 0px;
-background: rgba(24, 188, 156, 0.9);
+  /*top: 50%;*/
+  min-height: 125px;
+  /*margin-top: -50px;*/
+background: rgba(0, 0, 0, 0.6);
+padding: 10px;
+color: #fff;
 }
 
 /*@media screen and (min-width: 768px){
@@ -25,3 +33,10 @@ background: rgba(24, 188, 156, 0.9);
     padding-top: 200px;
 }
 }*/
+
+.form-address {
+	width: 100%;
+}
+.form-price {
+	/*display: inline-block;*/
+}

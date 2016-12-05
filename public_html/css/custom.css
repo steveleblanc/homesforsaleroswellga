@@ -41,6 +41,7 @@ color: #fff;
 	border-radius: 2px;
 	box-sizing: border-box;
 	padding: 10px;
+	color: #555;
 }
 .form-price {
 	/*display: inline-block;*/
@@ -51,6 +52,7 @@ color: #fff;
 	box-sizing: border-box;
 	padding: 10px;
 	float: left;
+	color: #555;
 }
 .form-price-container {
 	width: 23%;

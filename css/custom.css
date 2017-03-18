@@ -1,99 +1,472 @@
-.navbar-inverse {
-	background: rgba(0, 0, 0, 0.8);
+body {
+    font - family: 'Ubuntu', sans -
+        serif;
+    font - size: 18 px;
+    color:
+        #6f737a;
+
+}
+p {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    color: # 6 f737a;
+
+}#
+IDX - main {
+        font: 100 12 pt 'Arial',
+        sans - serif;
+    }
+    .IDX - resultsDescription {
+        font: 100 12 pt 'Arial',
+        sans - serif;
+    }#
+IDX - description {
+    font: 12 pt 'Arial',
+    sans - serif;
+}
+
+.navbar - inverse {
+    background: rgba(0, 0, 0, 0.6);
+    border - color: transparent;
+}
+
+.navbar - inverse.navbar - nav > li > a {
+        font - size: 18 px;
+        color: #ffffff;
+        text - transform: uppercase;
+        line - height: 1;
+    }
+    .navbar - inverse.navbar - nav > li >
+    a: hover {
+        background: rgba(0, 0, 0, 0.6);
+    }
+    .navbar - inverse.navbar - brand {
+        color: #ffffff;
+        font - size: 32 px;
+        line - height: 1.5;
+        font - family: 'Oswald',
+        sans - serif;
+    }
+    .navbar - inverse.navbar -
+    brandTagLine {
+        color: #ffffff;
+        font - size: 32 px;
+        line - height: 1.5;
+        font - family: 'Oswald',
+        sans - serif;
+    }
+    .navbar - inverse.navbar - phone >
+    li {
+        color: #ffffff;
+        font - size: 22 px;
+        text - transform: uppercase;
+        line - height: 2;
+        padding - top: 10 px;
+        padding - right: 15 px;
+    }
+
+.navbar - inverseSub {
+        background - color:
+            #2e3133;
     border-color: transparent;
 }
-    .my-jumbo {
-  background: url(../images/homes-for-sale.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 600px;
-padding-top: 200px;
+.navbar-inverseSub .navbar-nav>li>a {
+    font-size: 18px;
+    color: # ffffff;
+        text - transform: uppercase;
+        line - height: 1;
+    }
+    .navbar - inverseSub.navbar - nav >
+    li > a: hover {
+        background: rgba(0, 0, 0, 0.6);
+    }
+    .navbar - inverseSub.navbar - brand {
+        color: #ffffff;
+        font - size: 32 px;
+        line - height: 1.5;
+        font - family: 'Oswald',
+        sans - serif;
+    }
+    .navbar - inverseSub.navbar - phone >
+    li {
+        color: #ffffff;
+        font - size: 22 px;
+        text - transform: uppercase;
+        line - height: 2;
+        padding - top: 15 px;
+        padding - right: 15 px;
+    }
+    .navbar - toggle {
+        position: relative;
+        float: right;
+        padding: 9 px 10 px;
+        margin - top: 8 px;
+        margin - right: 15 px;
+        margin - bottom: 8 px;
+        background - color: transparent;
+        background - image: none;
+        border: 1 px solid white;
+        border - radius: 4 px;
+    }
+    .navbar - toggle: focus {
+        outline: 0;
+    }
+    .navbar - toggle.icon - bar {
+        display: block;
+        width: 22 px;
+        height: 2 px;
+        border - radius: 1 px;
+        border: 1 px solid white;
+    }
+    .navbar - toggle.icon - bar + .icon -
+    bar {
+        margin - top: 4 px;
+    }
+nav.navbar.shrink {
+    min - height: 35 px;
+    background - color: white;
 }
-.jumbotron {
-	height: 500px;
-padding-top: 200px;
+nav.navbar.shrink.masthead - brand {
+    font - size: 16 px;
+    /*max-width: 25%;*/
 }
-.container {
-	position: relative;
-}
-.mls-search {
-    /*position: absolute;*/
-    width: 100%;
-    border-radius: 5px;
-    margin-right: auto;
-  margin-left: auto;
-  /*top: 50%;*/
-  min-height: 125px;
-  /*margin-top: -50px;*/
-background: rgba(0, 0, 0, 0.6);
-padding: 10px;
-color: #fff;
+nav.navbar.shrink img {
+    display: inline - block;
+    width: 65 % ;
 }
 
-/*@media screen and (min-width: 768px){
-.jumbotron {
-    padding-top: 200px;
+nav.navbar.shrink a {
+    font - size: 14 px;
+    color: #aaa;
+    /*padding: 10px !important;*/
 }
-}*/
+nav.navbar.shrink.navbar - toggle {
+    margin: 0 px 15 px 8 px 0;
+    padding: 4 px 5 px;
+}
 
-.form-address {
-	width: 100%;
-	height: 40px;
-	margin-bottom: 15px;
-	border-radius: 4px;
-	box-sizing: border-box;
-	padding: 10px;
-	color: #555;
+
+.navPad {
+    padding - top: 100 px;
+    min - height: 600 px;
+}
+.navPadIDX {
+    padding - top: 140 px;
+    min - height: 600 px;
+}
+.my - jumbo {
+        background: url(.. / images /
+                homes -
+                for -sale - 6. jpg) no -
+            repeat center bottom fixed; -
+        webkit - background - size: cover; -
+        moz - background - size: cover; -
+        o - background - size: cover;
+        background - size: cover;
+        height: 650 px;
+        padding - top: 250 px;
+    }
+    .jumbotron {
+        height: 500 px;
+        padding - top: 200 px;
+    }
+    .container {
+        position: relative;
+    }
+    .mls - search {
+        /*position: absolute;*/
+        width: 100 % ;
+        border - radius: 5 px;
+        margin - right: auto;
+        margin - left: auto;
+        /*top: 50%;*/
+        min - height: 125 px;
+        /*margin-top: -50px;*/
+        background: rgba(0, 0, 0, 0.6);
+        padding: 10 px;
+        color: #fff;
+    }
+
+
+
+.form - address {
+        width: 100 % ;
+        height: 40 px;
+        margin - bottom: 15 px;
+        border - radius: 4 px;
+        box - sizing: border - box;
+        padding: 10 px;
+        color: #555;
+  font-size: 18px;
 }
 .form-price {
-	/*display: inline-block;*/
-	width: 100%;
-	height: 40px;
-	margin-bottom: 15px;
-	border-radius: 4px;
-	box-sizing: border-box;
-	padding: 10px;
-	float: left;
-	color: #555;
+  /*display: inline-block;*/
+  width: 100%;
+  height: 40px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 10px;
+  float: left;
+  color: # 555;
+        font - size: 18 px;
+    }
+    .form - price - container {
+        width: 23 % ;
+        float: left;
+        margin - right: 2 % ;
+    }
+    .btn {
+        /*margin-top: 20px;*/
+        width: 25 % ;
+        height: 40 px;
+        background: green;
+        border - color: green;
+        font - size: 18 px;
+    }
+    .featurette - title {
+        text - align: left;
+        color:
+            #6f737a;
+    font-size: 32px;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
 }
-.form-price-container {
-	width: 23%;
-    float: left;
-    margin-right: 2%;
+.featurette-heading {
+    text-align: center;
+    color: # 6 f737a;
+        font - size: 32 px;
+        margin: 0;
+        padding: 0;
+        text - transform: uppercase;
+    }
+    .featured - listings {
+        text - align: center;
+        color:
+            #6f737a;
+    font-size: 32px;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
 }
-.btn {
-	/*margin-top: 20px;*/
-	width: 25%;
-	height: 40px;
+section {
+  padding-top: 50px;
+}
+.footer {
+  background-color: # 354046;
+        color: white;
+        min - height: 80 px;
+        text - align: left;
+        padding - top: 50 px;
+        padding - bottom: 50 px;
+    }
+    .footer a {
+        color: white;
+        text - align: left;
+    }
+    .footerSig {
+        background - color:
+            #364851;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+.footerSig a {
+  color: white;
+  text-align: left;
+}
+.footerSig img {
+  width: 8%;
 }
 
-@media (min-width: 1280px){
-.container {
-    width: 1280px;
-    }
-}
-/*@media (min-width: 480px){
-.container {
-    width: 480px;
-    }
-}*/
 
-@media (min-width: 1280px){
-.mls-search {
-    width: 66.66666667%;
-    }
-}
-@media (max-width: 980px){
-.form-price-container {
-	width: 48%;
-    float: left;
-    margin-right: 2%;
-}
-.btn {
-	/*margin-top: 20px;*/
-	width: 48%;
-	height: 40px;
-}
-    }
+# IDX -
+            showcaseGallery - 25191. IDX -
+            showcaseTable {
+                table - layout: fixed;
+                border - spacing: 8 px;
+                font - size: 14 px;
+            }#
+        IDX - showcaseGallery - 25191.IDX -
+            showcaseRow {
+                display: table - row;
+            }#
+        IDX - showcaseGallery - 25191.IDX -
+            showcaseCell {
+                display: table - cell;
+            }#
+        IDX - showcaseGallery - 25191.IDX -
+            showcaseContainer {
+                border: none; - webkit -
+                box - shadow: 1 px 1 px 3 px rgba(
+                    22, 22, 22, .4);
+                box - shadow: 1 px 1 px 3 px rgba(
+                    22, 22, 22, .4);
+                padding: 3 px;
+            }#
+        IDX - showcaseGallery - 25191.IDX -
+            showcaseLink {
+                height: 100 % ;
+                width: 100 % ;
+                font - size: 0;
+                text - align: center;
+                display: inline - block;
+            }#
+        IDX - showcaseGallery - 25191.IDX -
+            showcaseLink: before {
+                height: 100 % ;
+                content: "";
+                display: inline - block;
+                vertical - align: middle;
+            }#
+        IDX - showcaseGallery - 25191.IDX -
+            showcasePhoto {
+                max - width: 100 % ;
+                display: inline - block;
+                vertical - align:
+                    middle;
+            }#
+        IDX - showcaseGallery - 25191.IDX -
+            showcaseCell div {
+                text - align: center;
+            }#
+        IDX - showcaseGallery - 25191.IDX -
+            showcaseListingID, #IDX -
+            showcaseGallery - 25191.IDX -
+            showcaseBeds, #IDX -
+            showcaseGallery - 25191.IDX -
+            showcaseBaths, #IDX -
+            showcaseGallery - 25191.IDX -
+            showcaseFull, #IDX -
+            showcaseGallery - 25191.IDX -
+            showcasePartial, #IDX -
+            showcaseGallery - 25191.IDX -
+            showcaseRemarks, #IDX -
+            showcaseGallery - 25191.IDX -
+            showcaseDisclaimerLink, #
+            IDX - showcaseGallery -
+            25191.IDX - showcaseStatus, #
+            IDX - showcaseGallery -
+            25191.IDX -
+            showcaseStateAbrv {
+                display: none;
+            }
+
+        #
+        IDX - showcaseGallery - 25191.IDX -
+            showcasePrice {
+                font - weight: bold;
+                font - size: 18 px;
+            }
+
+        #
+        IDX - showcaseGallery - 25191.IDX -
+            showcaseContainer {
+                position: relative;
+            }
+
+
+
+
+        /*mobile devices min-width*/
+
+
+        @
+        media(min - width: 1280 px) {
+                .container {
+                    width: 1280 px;
+                }
+            }
+            /*@media (min-width: 480px){
+            .container {
+                width: 480px;
+                }
+            }*/
+
+        @
+        media(min - width: 1280 px) {
+            .mls - search {
+                width: 66.66666667 % ;
+            }
+        }@
+        media(min - width: 768 px) {
+            .navbar - toggle {
+                display: none;
+            }
+        }
+
+
+        /*@media screen and (min-width: 768px){
+        .jumbotron {
+            padding-top: 200px;
+        }
+        }*/
+
+        /*mobile devices max-width*/
+
+
+        @
+        media(max - width: 980 px) {
+            .form - price -
+                container {
+                    width: 48 % ;
+                    float: left;
+                    margin - right: 2 % ;
+                }
+                .btn {
+                    /*margin-top: 20px;*/
+                    width: 48 % ;
+                    height: 40 px;
+                }
+                .navbar - inverse.navbar -
+                brand > img {
+                    width: 80 % ;
+                }
+
+            .navbar - inverse.navbar -
+                brand {
+                    line - height:
+                        1;
+
+                }
+                .navbar - fixed -
+                top {
+                    position: absolute;
+                    float: left;
+                    float: right;
+                }
+                .navbar - toggle {
+                    margin - right:
+                        30 px;
+                }
+        }
+
+        @
+        media(max - width: 360 px) {
+            .navbar - inverse.navbar -
+                brand > img {
+                    position: absolute;
+                    width: 80 % ;
+                    display: block;
+                    margin - left: auto;
+                    margin - right: auto;
+                }
+                .navbar - inverse.navbar -
+                phone > li {
+                    position: relative;
+                    padding - top: 70 px;
+                    padding - right: 100 px;
+                    display: block;
+                }
+                .navbar - inverse.navbar -
+                toggle {
+                    margin - right:
+                        40 % ;
+                }
+
+
+        }
+
+
+        /*end mobile devices*/

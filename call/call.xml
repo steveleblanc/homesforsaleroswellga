@@ -2,8 +2,8 @@
 
 <Response>
 
-    <Dial timeout="30" record="true">828-557-5059</Dial>
+    <Dial timeout="30" record="true">828-557-xxxx</Dial>
 
-    <Sms from="+17706285059" to="+18285576761">LEAD ALERT: A new lead has just called
+    <Sms from="+17706285059" to="+1828557xxxx">LEAD ALERT: A new lead has just called
         the number on homesforsaleroswellga.com</Sms>
 </Response>
